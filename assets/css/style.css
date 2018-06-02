@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/background.jpg);
+    text-align: center;  
+}
+
+#wrapper1{
+    margin:2.5% auto;
+    background-color: rgba(40, 245, 252, 0.61);
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+  }
+  
+  #wrapper2{
+    position: relative;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+  }
+  
+
+  
+  h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 5.5em;
+    font-weight: bold;
+    color:rgb(255, 208, 0);
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid rgb(51, 255, 0);
+    background: rgb(194, 255, 192);
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid blue;
+    background: pink;
+  }
+  html, body{
+    height:100%;
+  }  
